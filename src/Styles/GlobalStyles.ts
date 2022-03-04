@@ -13,12 +13,14 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     *, button, input {
+        transition: color .2s ease-out;
+
         border: 0;
         background: none;
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
         color: var(--black);
 
-        transition: color .2s ease-out;
+        
     }
 
     ul {
